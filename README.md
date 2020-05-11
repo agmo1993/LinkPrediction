@@ -24,7 +24,7 @@ Where X is the training data present in this problem, used to train the model, a
 
 See following file for detailed implementation and code details:
 
-[Implementation] https://github.com/agmo1993/LinkPrediction/blob/master/LinkPrediction.ipynb
+[Implementation](https://github.com/agmo1993/LinkPrediction/blob/master/LinkPrediction.ipynb)
 
 
 
