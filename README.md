@@ -1,5 +1,7 @@
 # Predicting co-authorship links between academics with supervised learning using network and attribute information 
 
+[Kaggle Competition Link](https://www.kaggle.com/c/comp90051-2020-sem1-project-1)
+
 Graph databases are becoming more ubiquitous for a variety of applications, particularly due to their ability to map multiple types of relational data. A graph database consists of nodes and edges, where a node represents an object and an edge represents a connection or a relationship between two objects. In many graph databases, such as social networks, edges are continuously being added between nodes that are not connected e.g. due to the formation of friendship connections in social networks. The activity of estimating the likelihood of an edge being formed, or being present, between two edges is called ‘link prediction’. 
  
 The link prediction problem can be approached by analyzing the structure/topology of the graph, as well as the individual attributes of the nodes
@@ -19,6 +21,10 @@ Logistic regression, a supervised learning algorithm, was used as the algorithm 
 Where X is the training data present in this problem, used to train the model, and the weight vector (w) is based on the features used for the model. Moreover, the maximum likelihood estimation was used to find the w which results in the global maximum in the log likelihood function, a measure used to determine how well the function fits the data. Both network topological features, as well as node attributes were considered as features used to train the logistic regression models. The Algorithms used to calculate the network features for each pair of nodes (u,v) are Jaccard Similarity, Resource allocation Index, Preferential attachment, Adamic Adar Index, Number of common neighbors 
 
 ## Implementation
+
+See following file for detailed implementation and code details:
+
+[Implementation] https://github.com/agmo1993/LinkPrediction/blob/master/LinkPrediction.ipynb
 
 
 
