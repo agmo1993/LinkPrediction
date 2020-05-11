@@ -14,9 +14,11 @@ The test data is a set of 2000 edges, between two nodes vi and vj. Link predicti
 
 Logistic regression, a supervised learning algorithm, was used as the algorithm for predicting the presence of a link between two nodes. This algorithm was used as it assumes a Bernoulli distribution, which in this problem is attributable as a link can either exist or not. With Logistic regression, the probability of an edge being present between any two nodes (u and v) is determined by the sigmoid function shown below,
 
+!(https://github.com/agmo1993/LinkPrediction/blob/master/equation.JPG)
 
 Where X is the training data present in this problem, used to train the model, and the weight vector (w) is based on the features used for the model. Moreover, the maximum likelihood estimation was used to find the w which results in the global maximum in the log likelihood function, a measure used to determine how well the function fits the data. Both network topological features, as well as node attributes were considered as features used to train the logistic regression models. The Algorithms used to calculate the network features for each pair of nodes (u,v) are Jaccard Similarity, Resource allocation Index, Preferential attachment, Adamic Adar Index, Number of common neighbors 
 
 ## Implementation
+
 
 
